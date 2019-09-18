@@ -7,7 +7,7 @@ const { NODE_ENV } = require('./config')
 
 
 const plannerRouter = require('./planner/plannerRouter')
-// const authRouter = require('./auth/auth-router')
+const authRouter = require('./auth/auth-router')
 const usersRouter = require('./users/users-router')
 
 const errorHandler = require('./error-handler');
@@ -21,8 +21,8 @@ app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
 
-app.use('/api/groceries', plannerRouter)
-// app.use('/api/auth', authRouter)
+app.use('/api/planner', plannerRouter)
+app.use('/api/auth', authRouter)
 app.use('/api/users', usersRouter)
 
 app.get('/', (req, res) => {
