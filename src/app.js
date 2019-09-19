@@ -6,7 +6,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 
 
-const plannerRouter = require('./planner/plannerRouter')
+const mealRouter = require('./meals/mealRouter')
 const authRouter = require('./auth/auth-router')
 const usersRouter = require('./users/users-router')
 
@@ -21,7 +21,7 @@ app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
 
-app.use('/api/planner', plannerRouter)
+app.use('/api/meal', mealRouter)
 app.use('/api/auth', authRouter)
 app.use('/api/users', usersRouter)
 

@@ -2,3 +2,26 @@
 {"message":"Unexpected token f in JSON at position 3","level":"error"}
 {"message":"Unexpected token f in JSON at position 3","level":"error"}
 {"message":"Unexpected token f in JSON at position 3","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 group by \"date\" - column \"meals.id\" must appear in the GROUP BY clause or be used in an aggregate function","level":"error"}
+{"message":"MealService.getByWeek is not a function","level":"error"}
+{"message":"Cannot read property 'then' of undefined","level":"error"}
+{"message":"Cannot read property 'id' of undefined","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"MealService.insertMeal is not a function","level":"error"}
+{"message":"grocery is not defined","level":"error"}
+{"message":"Meal Item with id 28 created.","level":"info"}
+{"message":"Meal Item with id 29 created.","level":"info"}
+{"message":"Meal Item with id 30 created.","level":"info"}
+{"message":"Meal Item with id 31 created.","level":"info"}
+{"message":"Meal Item with id 32 created.","level":"info"}
+{"message":"Meal Item with id 33 created.","level":"info"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"meals\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"meals\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"meals\" where \"id\" = ?","level":"error"}
+{"message":"delete from \"meals\" where \"id\" = $1 - invalid input syntax for integer: \"2019-09-23\"","level":"error"}
+{"message":"delete from \"meals\" where \"id\" = $1 - invalid input syntax for integer: \"NaN\"","level":"error"}
+{"message":"Meal with id 2019-09-23 not found.","level":"error"}
+{"message":"Meal item with id 33 deleted.","level":"info"}
