@@ -25,3 +25,7 @@
 {"message":"delete from \"meals\" where \"id\" = $1 - invalid input syntax for integer: \"NaN\"","level":"error"}
 {"message":"Meal with id 2019-09-23 not found.","level":"error"}
 {"message":"Meal item with id 33 deleted.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5) returning * - invalid input syntax for integer: \"\"","level":"error"}
+{"message":"Meal Item with id 34 created.","level":"info"}
+{"message":"Meal Item with id 35 created.","level":"info"}
