@@ -12,6 +12,9 @@
     "migrate": "postgrator --config postgrator-config.js"
   },
   "keywords": [],
+  "engines": {
+    "node": "12.8.0"
+  },
   "author": "Artan Muzhaqi",
   "license": "ISC",
   "dependencies": {

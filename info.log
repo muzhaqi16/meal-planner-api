@@ -29,3 +29,60 @@
 {"message":"insert into \"meals\" (\"calories\", \"date\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5) returning * - invalid input syntax for integer: \"\"","level":"error"}
 {"message":"Meal Item with id 34 created.","level":"info"}
 {"message":"Meal Item with id 35 created.","level":"info"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"select * from \"meals\" where \"user_id\" = $1 and \"date\" between $2 and $3 - invalid input syntax for type date: \"undefined\"","level":"error"}
+{"message":"Meal Item with id 36 created.","level":"info"}
+{"message":"Meal Item with id 37 created.","level":"info"}
+{"message":"Meal Item with id 38 created.","level":"info"}
+{"message":"Meal Item with id 39 created.","level":"info"}
+{"message":"Meal Item with id 40 created.","level":"info"}
+{"message":"Meal Item with id 41 created.","level":"info"}
+{"message":"Meal Item with id 42 created.","level":"info"}
+{"message":"Meal Item with id 43 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 44 created.","level":"info"}
+{"message":"Meal Item with id 45 created.","level":"info"}
+{"message":"Meal Item with id 46 created.","level":"info"}
+{"message":"Meal Item with id 47 created.","level":"info"}
+{"message":"Meal Item with id 48 created.","level":"info"}
+{"message":"Meal Item with id 49 created.","level":"info"}
+{"message":"Meal Item with id 50 created.","level":"info"}
+{"message":"Meal Item with id 51 created.","level":"info"}
+{"message":"Meal Item with id 52 created.","level":"info"}
+{"message":"Meal Item with id 53 created.","level":"info"}
+{"message":"Meal Item with id 54 created.","level":"info"}
+{"message":"Meal Item with id 55 created.","level":"info"}
+{"message":"Meal Item with id 56 created.","level":"info"}
+{"message":"Meal Item with id 57 created.","level":"info"}
+{"message":"Meal Item with id 58 created.","level":"info"}
+{"message":"Meal Item with id 59 created.","level":"info"}
+{"message":"Meal Item with id 60 created.","level":"info"}
+{"message":"Meal Item with id 61 created.","level":"info"}
+{"message":"Meal Item with id 62 created.","level":"info"}
+{"message":"Meal Item with id 63 created.","level":"info"}
+{"message":"Meal Item with id 64 created.","level":"info"}
+{"message":"Meal Item with id 65 created.","level":"info"}
+{"message":"Meal Item with id 66 created.","level":"info"}
+{"message":"Meal Item with id 67 created.","level":"info"}
+{"message":"Meal Item with id 68 created.","level":"info"}
+{"message":"Meal Item with id 69 created.","level":"info"}
+{"message":"Meal Item with id 70 created.","level":"info"}
+{"message":"Meal Item with id 71 created.","level":"info"}
+{"message":"Meal Item with id 72 created.","level":"info"}
+{"message":"Meal Item with id 73 created.","level":"info"}
+{"message":"Meal Item with id 74 created.","level":"info"}
+{"message":"Meal Item with id 75 created.","level":"info"}

@@ -56,7 +56,6 @@ mealRouter
     .all(requireAuth)
     .get((req, res, next) => {
         const { week } = req.params;
-
         MealService.getByWeek(req.app.get('db'), week, req.user.id)
             .then(week => {
                 res.json(week)
