@@ -3,7 +3,7 @@
 This is the api used for the [meal-planner](https://github.com/muzhaqi16/meal-planner-react) app help you plan and view your meals for the week
 ## Demo
 
-- [Live Api Demo](https://mysterious-escarpment-50702.herokuapp.com/')
+- [Live Api Demo](https://mysterious-escarpment-50702.herokuapp.com/)
 - [Client Demo](https://meal-planner.now.sh/)
 - [Local Api Demo](http://localhost:8000/api)
 
