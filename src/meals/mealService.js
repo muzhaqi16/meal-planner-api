@@ -20,6 +20,11 @@ const MealService = {
                 return rows[0]
             })
     },
+    updateMeal(knex, id, newMeal) {
+        return knex('meals')
+            .where({ id })
+            .update(newMeal)
+    },
     deleteMeal(knex, id) {
         return knex('meals')
             .where({ id })

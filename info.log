@@ -86,3 +86,15 @@
 {"message":"Meal Item with id 73 created.","level":"info"}
 {"message":"Meal Item with id 74 created.","level":"info"}
 {"message":"Meal Item with id 75 created.","level":"info"}
+{"message":"Meal Item with id 76 created.","level":"info"}
+{"message":"Meal Item with id 77 created.","level":"info"}
+{"message":"Meal Item with id 78 created.","level":"info"}
+{"message":"Meal item with id 120 deleted.","level":"info"}
+{"message":"Meal item with id 120 deleted.","level":"info"}
+{"message":"Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [id] query: update \"meals\" set \"name\" = ? where \"id\" = ?","level":"error"}
+{"message":"Unexpected token } in JSON at position 20","level":"error"}
+{"message":"week is not defined","level":"error"}
+{"message":"knex.from is not a function","level":"error"}
+{"message":"knex.from is not a function","level":"error"}
+{"message":"Meal with id 320 not found.","level":"error"}
+{"message":"Meal Item with id 79 created.","level":"info"}

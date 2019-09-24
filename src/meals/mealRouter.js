@@ -63,11 +63,32 @@ mealRouter
             .catch(next)
 
     })
+    .patch(bodyParser, (req, res, next) => {
+        const { name } = req.body;
+        const { week } = req.params
+        const id = Number(week);
+        MealService.getById(req.app.get('db'), id)
+            .then(numRowsAffected => {
+                if (!numRowsAffected) {
+                    logger.error(`Meal with id ${id} not found.`)
+                    return res.status(404).json({
+                        error: { message: `Meal Not Found` }
+                    })
+                }
+            })
+        const newMeal = { name }
+        MealService.updateMeal(
+            req.app.get('db'), week, newMeal)
+            .then(numRowsAffected => {
+                res.status(204).end()
+            })
+            .catch(next)
+    })
     .delete((req, res, next) => {
         const { week } = req.params
         const id = Number(week);
         if (!id) {
-            logger.error(`Meal with id ${week} not found.`)
+            logger.error(`Meal with id ${id} not found.`)
             return res.status(404).json({
                 error: { message: `Meal Not Found` }
             })
