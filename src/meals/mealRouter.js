@@ -25,7 +25,7 @@ mealRouter
             .catch(next)
     })
     .post(bodyParser, (req, res, next) => {
-        const { date, name, time, calories } = req.body
+        const { date, name, time, calories = 0 } = req.body
         const newMeal = { date, name, time, calories }
 
         for (const field of ['name', 'time', 'date']) {
@@ -46,7 +46,7 @@ mealRouter
                 logger.info(`Meal Item with id ${meal.id} created.`)
                 res
                     .status(201)
-                    .location(path.posix.join(req.originalUrl, `${meal.id}`))
+                    .location(path.posix.join(req.originalUrl, `/${meal.id}`))
                     .json(serializeMeal(meal))
             })
             .catch(next)

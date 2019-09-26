@@ -22,7 +22,6 @@ describe('Meals Endpoints', () => {
 
     afterEach('cleanup', () => helpers.cleanTables(db))
 
-
     describe(`Unauthorized requests`, () => {
         beforeEach('insert users and meals', () => {
             return db
@@ -56,14 +55,65 @@ describe('Meals Endpoints', () => {
                 .set('Authorization', helpers.makeAuthHeader(userInvalidCreds))
                 .expect(401, { error: `Unauthorized request` })
         })
+    })
+    describe(`POST /api/meal`, () => {
+        beforeEach('insert meal', () =>
+            helpers.seedUsers(
+                db,
+                testUsers
+            )
+        )
 
-        it(`responds 401 'Unauthorized request' when invalid password`, () => {
-            const userInvalidPass = { user_name: 'test', password: 'wrong' }
+        it(`creates a meal, responding with 201 and the new meal`, function () {
+            this.retries(3)
+            const testMeal = testMeals[0];
+            const testUser = testUsers[0];
+
             return supertest(app)
-                .get('/api/meal')
-                .set('Authorization', helpers.makeAuthHeader(userInvalidPass))
-                .expect(401, { error: `Unauthorized request` })
+                .post('/api/meal')
+                .set('Authorization', helpers.makeAuthHeader(testUser))
+                .send(testMeal)
+                .expect(201)
+                .expect(res => {
+                    expect(res.body).to.have.property('id')
+                    expect(res.body.name).to.eql(testMeal.name)
+                    expect(res.body.time).to.eql(testMeal.time)
+                    expect(res.headers.location).to.eql(`/api/meal/${res.body.id}`)
+                })
+                .expect(res =>
+                    db
+                        .from('meals')
+                        .select('*')
+                        .where({ id: res.body.id })
+                        .first()
+                        .then(row => {
+                            expect(row.name).to.eql(testMeal.name)
+                            expect(row.time).to.eql(testMeal.time)
+                            expect(row.user_id).to.eql(testUser.id)
+                        })
+                )
+        })
+
+        const requiredFields = ['name', 'time', 'date']
+
+        requiredFields.forEach(field => {
+            const testUser = testUsers[0]
+            const newMeal = {
+                name: 'Pasta Fagoli',
+                time: 'breakfast',
+                date: '2019-09-16'
+            }
+
+            it(`responds with 400 and an error message when the '${field}' is missing`, () => {
+                delete newMeal[field]
+                return supertest(app)
+                    .post('/api/meal')
+                    .set('Authorization', helpers.makeAuthHeader(testUser))
+                    .send(newMeal)
+                    .expect(400, {
+                        error: { message: `'${field}' is required` }
+                    })
+            })
         })
     })
-
 })

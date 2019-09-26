@@ -98,3 +98,139 @@
 {"message":"knex.from is not a function","level":"error"}
 {"message":"Meal with id 320 not found.","level":"error"}
 {"message":"Meal Item with id 79 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"field is not defined","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].map is not a function","level":"error"}
+{"message":"Cannot read property 'map' of undefined","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"{(intermediate value)(intermediate value)(intermediate value)(intermediate value)}[(\"name\" , \"time\" , \"date\")].forEach is not a function","level":"error"}
+{"message":"Cannot read property 'forEach' of undefined","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
