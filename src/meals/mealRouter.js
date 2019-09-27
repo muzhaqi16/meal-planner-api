@@ -77,8 +77,9 @@ mealRouter
                 }
             })
         const newMeal = { name, date, time, calories }
+
         MealService.updateMeal(
-            req.app.get('db'), week, newMeal)
+            req.app.get('db'), id, newMeal)
             .then(numRowsAffected => {
                 res.status(204).end()
             })

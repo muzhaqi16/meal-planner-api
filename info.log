@@ -234,3 +234,35 @@
 {"message":"name is required","level":"error"}
 {"message":"time is required","level":"error"}
 {"message":"date is required","level":"error"}
+{"message":"Empty .update() call detected! Update data does not contain any values to update. This will result in a faulty query.","level":"error"}
+{"message":"Meal Item with id 80 created.","level":"info"}
+{"message":"Meal item with id 80 deleted.","level":"info"}
+{"message":"Meal Item with id 81 created.","level":"info"}
+{"message":"Meal item with id 81 deleted.","level":"info"}
+{"message":"Meal Item with id 82 created.","level":"info"}
+{"message":"Meal Item with id 83 created.","level":"info"}
+{"message":"Meal Item with id 84 created.","level":"info"}
+{"message":"Meal Item with id 85 created.","level":"info"}
+{"message":"Meal Item with id 86 created.","level":"info"}
+{"message":"Meal Item with id 87 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"Meal Item with id 88 created.","level":"info"}
+{"message":"Meal Item with id 89 created.","level":"info"}
+{"message":"Meal item with id 89 deleted.","level":"info"}
+{"message":"Meal item with id 88 deleted.","level":"info"}
+{"message":"Meal item with id 87 deleted.","level":"info"}
+{"message":"Meal Item with id 90 created.","level":"info"}
+{"message":"Meal Item with id 91 created.","level":"info"}
+{"message":"Meal item with id 91 deleted.","level":"info"}
+{"message":"Meal Item with id 92 created.","level":"info"}
+{"message":"Meal item with id 92 deleted.","level":"info"}
+{"message":"Meal Item with id 93 created.","level":"info"}
+{"message":"Meal item with id 93 deleted.","level":"info"}
+{"message":"Meal Item with id 94 created.","level":"info"}
+{"message":"Meal item with id 94 deleted.","level":"info"}
+{"message":"Meal Item with id 95 created.","level":"info"}
+{"message":"Meal Item with id 96 created.","level":"info"}
+{"message":"Meal item with id 95 deleted.","level":"info"}
+{"message":"Meal item with id 77 deleted.","level":"info"}
+{"message":"Meal item with id 96 deleted.","level":"info"}
+{"message":"Meal Item with id 97 created.","level":"info"}
