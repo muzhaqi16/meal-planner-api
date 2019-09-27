@@ -64,7 +64,7 @@ mealRouter
 
     })
     .patch(bodyParser, (req, res, next) => {
-        const { name } = req.body;
+        const { name, date, time, calories } = req.body;
         const { week } = req.params
         const id = Number(week);
         MealService.getById(req.app.get('db'), id)
@@ -76,7 +76,7 @@ mealRouter
                     })
                 }
             })
-        const newMeal = { name }
+        const newMeal = { name, date, time, calories }
         MealService.updateMeal(
             req.app.get('db'), week, newMeal)
             .then(numRowsAffected => {
