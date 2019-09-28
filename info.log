@@ -266,3 +266,8 @@
 {"message":"Meal item with id 77 deleted.","level":"info"}
 {"message":"Meal item with id 96 deleted.","level":"info"}
 {"message":"Meal Item with id 97 created.","level":"info"}
+{"message":"Meal Item with id 98 created.","level":"info"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
