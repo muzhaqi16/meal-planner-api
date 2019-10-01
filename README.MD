@@ -47,6 +47,12 @@ Migrate database `npm run migrate`
     
     `PATCH` edit meal by id
     
+`/api/recipes`
+
+    `GET` get all recipes for a specified user matching query
+    
+    `POST` add a new recipe
+    
 `/api/auth`
 
     `POST` login 
