@@ -23,7 +23,7 @@ app.use(cors())
 app.use(helmet())
 
 app.use('/api/meal', mealRouter)
-app.use('/api/recipe', recipeRouter)
+app.use('/api/recipes', recipeRouter)
 app.use('/api/auth', authRouter)
 app.use('/api/users', usersRouter)
 

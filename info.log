@@ -281,3 +281,9 @@
 {"message":"Recipe name is required","level":"error"}
 {"message":"insert into \"recipes\" (\"calories\", \"details\", \"name\", \"user_id\") values ($1, $2, $3, $4) returning * - null value in column \"id\" violates not-null constraint","level":"error"}
 {"message":"Recipe with id 4 created.","level":"info"}
+{"message":"Meal Item with id 150 created.","level":"info"}
+{"message":"Meal Item with id 151 created.","level":"info"}
+{"message":"Recipe with id 5 created.","level":"info"}
+{"message":"Meal item with id 150 deleted.","level":"info"}
+{"message":"Meal Item with id 152 created.","level":"info"}
+{"message":"Recipe with id 6 created.","level":"info"}

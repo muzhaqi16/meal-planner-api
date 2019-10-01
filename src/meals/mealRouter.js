@@ -12,6 +12,7 @@ const serializeMeal = meal => ({
     id: meal.id,
     name: xss(meal.name),
     time: xss(meal.time),
+    details: xss(meal.details),
     calories: Number(meal.calories),
 })
 mealRouter
@@ -26,6 +27,7 @@ mealRouter
     })
     .post(bodyParser, (req, res, next) => {
         const { date, name, time, calories = 0, details = '' } = req.body
+        console.log(req.body, details)
         const newMeal = { date, name, time, calories, details }
 
         for (const field of ['name', 'time', 'date']) {
@@ -64,7 +66,7 @@ mealRouter
 
     })
     .patch(bodyParser, (req, res, next) => {
-        const { name, date, time, calories } = req.body;
+        const { name, date, time, calories, details } = req.body;
         const { week } = req.params
         const id = Number(week);
         MealService.getById(req.app.get('db'), id)
@@ -76,7 +78,7 @@ mealRouter
                     })
                 }
             })
-        const newMeal = { name, date, time, calories }
+        const newMeal = { name, date, time, calories, details }
 
         MealService.updateMeal(
             req.app.get('db'), id, newMeal)
