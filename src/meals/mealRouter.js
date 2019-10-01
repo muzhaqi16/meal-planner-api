@@ -25,8 +25,8 @@ mealRouter
             .catch(next)
     })
     .post(bodyParser, (req, res, next) => {
-        const { date, name, time, calories = 0 } = req.body
-        const newMeal = { date, name, time, calories }
+        const { date, name, time, calories = 0, details = '' } = req.body
+        const newMeal = { date, name, time, calories, details }
 
         for (const field of ['name', 'time', 'date']) {
             if (!newMeal[field]) {

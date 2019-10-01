@@ -271,3 +271,13 @@
 {"message":"name is required","level":"error"}
 {"message":"time is required","level":"error"}
 {"message":"date is required","level":"error"}
+{"message":"Meal item with id 144 deleted.","level":"info"}
+{"message":"Meal item with id 118 deleted.","level":"info"}
+{"message":"Meal item with id 135 deleted.","level":"info"}
+{"message":"Meal item with id 117 deleted.","level":"info"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"Meal Item with id 149 created.","level":"info"}
+{"message":"Recipe name is required","level":"error"}
+{"message":"insert into \"recipes\" (\"calories\", \"details\", \"name\", \"user_id\") values ($1, $2, $3, $4) returning * - null value in column \"id\" violates not-null constraint","level":"error"}
+{"message":"Recipe with id 4 created.","level":"info"}

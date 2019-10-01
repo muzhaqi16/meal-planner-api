@@ -7,6 +7,7 @@ const { NODE_ENV } = require('./config')
 
 
 const mealRouter = require('./meals/mealRouter')
+const recipeRouter = require('./recipes/recipeRouter')
 const authRouter = require('./auth/auth-router')
 const usersRouter = require('./users/users-router')
 
@@ -22,6 +23,7 @@ app.use(cors())
 app.use(helmet())
 
 app.use('/api/meal', mealRouter)
+app.use('/api/recipe', recipeRouter)
 app.use('/api/auth', authRouter)
 app.use('/api/users', usersRouter)
 
