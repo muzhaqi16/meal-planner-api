@@ -301,3 +301,21 @@
 {"message":"Recipe with id 11 created.","level":"info"}
 {"message":"Recipe with id 12 created.","level":"info"}
 {"message":"Recipe with id 13 created.","level":"info"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"insert into \"meals\" (\"calories\", \"date\", \"details\", \"name\", \"time\", \"user_id\") values ($1, $2, $3, $4, $5, $6) returning * - column \"details\" of relation \"meals\" does not exist","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Meal Item with id 1 created.","level":"info"}
+{"message":"name is required","level":"error"}
+{"message":"time is required","level":"error"}
+{"message":"date is required","level":"error"}

@@ -67,6 +67,7 @@ function makeMealsArray() {
             id: 1,
             user_id: 1,
             name: "Potatoe Pie",
+            details: "for this recipe we will need",
             time: "breakfast",
             date: "2019-09-16",
             calories: 100
@@ -75,6 +76,7 @@ function makeMealsArray() {
             id: 2,
             user_id: 1,
             name: "Soup",
+            details: "for this recipe we will need",
             time: "dinner",
             date: "2019-09-17",
             calories: 100
@@ -82,6 +84,7 @@ function makeMealsArray() {
             id: 3,
             user_id: 1,
             name: "Pasta Fagoli",
+            details: "for this recipe we will need",
             time: "lunch",
             date: "2019-09-18",
             calories: 100
@@ -90,6 +93,7 @@ function makeMealsArray() {
             id: 4,
             user_id: 1,
             name: "Pancakes",
+            details: "for this recipe we will need",
             time: "breakfast",
             date: "2019-09-17",
             calories: 100
