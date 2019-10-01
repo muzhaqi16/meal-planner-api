@@ -14,12 +14,12 @@ const usersRouter = require('./users/users-router')
 const errorHandler = require('./error-handler');
 const app = express()
 
-app.use(cors())
 const morganOption = (NODE_ENV === 'production')
     ? 'tiny'
     : 'common';
 
 app.use(morgan(morganOption))
+app.use(cors())
 app.use(helmet())
 
 app.use('/api/meal', mealRouter)
